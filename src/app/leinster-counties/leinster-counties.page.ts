@@ -11,6 +11,10 @@ import { IonicModule } from '@ionic/angular';
   imports: [IonicModule, CommonModule, FormsModule]
 })
 export class LeinsterCountiesPage implements OnInit {
+  counties: string[] = ["Carlow", "Dublin", "Kildare",
+"Kilkenny", "Laois", "Longford", "Louth", "Meath",
+"Offaly", "Westmeath", "Wexford", "Wicklow"];
+
 
   constructor() { }
 
